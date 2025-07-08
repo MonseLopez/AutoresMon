@@ -10,7 +10,8 @@ const Autores = () => {
     fechaNacimiento: "",
   });
 
-  const API_URL = "http://monseAutores.somee.com/api/Autor";
+  const API_URL = "https://monseautores.somee.com/api/Autor";
+
 
   // Obtener todos los autores
   const obtenerAutores = async () => {
